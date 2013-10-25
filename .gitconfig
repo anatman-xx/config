@@ -2,8 +2,19 @@
 	name = Brant Young
 	email = anatman.xx@gmail.com
 
+[core]
+	excludesfile = /Users/flying_mmr/.gitignore_global
+
 [color]
 	status = auto
 	diff = auto
 	branch = auto
 	interactive = auto
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
