@@ -1,0 +1,9 @@
+[user]
+	name = Brant Young
+	email = anatman.xx@gmail.com
+
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
