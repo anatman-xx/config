@@ -5,6 +5,9 @@
 [core]
 	excludesfile = /Users/flying_mmr/.gitignore_global
 
+[push]
+	default = simple
+
 [color]
 	status = auto
 	diff = auto
