@@ -24,6 +24,7 @@ Bundle 'AutoClose'
 Bundle 'FuzzyFinder'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
+Bundle 'pig.vim'
 
 " Non GitHub Repos
 " Bundle 'git://git.wincent.com/command-t.git'
