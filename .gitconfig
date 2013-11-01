@@ -3,6 +3,7 @@
 	email = anatman.xx@gmail.com
 
 [core]
+	editor = /usr/bin/vim
 	excludesfile = /Users/flying_mmr/.gitignore_global
 
 [push]
