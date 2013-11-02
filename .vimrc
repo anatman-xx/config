@@ -11,6 +11,18 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 ""
+" Common settings
+""
+syn on
+
+set smarttab
+set autoindent
+set smartindent
+"set number
+set hls
+set fileencodings=uft-8,gbk
+
+""
 " Bundles
 ""
 " Original Repos on GitHub
@@ -22,6 +34,8 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'L9'
 Bundle 'AutoClose'
 Bundle 'FuzzyFinder'
+Bundle 'Erlang-plugin-package'
+Bundle 'vim-erlang-skeleteons'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'pig.vim'
