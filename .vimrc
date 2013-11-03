@@ -13,8 +13,9 @@ Bundle 'gmarik/vundle'
 ""
 " Common settings
 ""
-syn on
+syntax on
 
+set showmatch
 set smarttab
 set autoindent
 set smartindent
@@ -29,6 +30,7 @@ set fileencodings=uft-8,gbk
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Lokaltog/vim-powerline'
 
 " Vim-Scripts Repos
 Bundle 'L9'
@@ -50,6 +52,10 @@ Bundle 'The-NERD-Commenter'
 ""
 " Required
 filetype plugin indent on
+
+" PowerLine
+set laststatus=2 " Always show the statusline"
+set t_Co=256
 
 ""
 " Brief help
