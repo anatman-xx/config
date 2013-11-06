@@ -19,9 +19,9 @@ set showmatch
 set smarttab
 set autoindent
 set smartindent
-"set number
 set hls
 set fileencodings=uft-8,gbk
+"set number
 
 ""
 " Bundles
@@ -30,7 +30,6 @@ set fileencodings=uft-8,gbk
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/vim-powerline'
 
 " Vim-Scripts Repos
 Bundle 'L9'
@@ -52,18 +51,3 @@ Bundle 'The-NERD-Commenter'
 ""
 " Required
 filetype plugin indent on
-
-" PowerLine
-set laststatus=2 " Always show the statusline"
-set t_Co=256
-
-""
-" Brief help
-""
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
