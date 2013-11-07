@@ -21,6 +21,7 @@ set autoindent
 set smartindent
 set hls
 set fileencodings=uft-8,gbk
+"set ruler
 "set number
 
 ""
