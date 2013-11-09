@@ -18,9 +18,10 @@ syn on
 set smarttab
 set autoindent
 set smartindent
-"set number
 set hls
 set fileencodings=uft-8,gbk
+"set ruler
+"set number
 
 ""
 " Bundles
