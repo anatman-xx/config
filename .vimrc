@@ -15,11 +15,10 @@ Bundle 'gmarik/vundle'
 ""
 syn on
 
-set smarttab
-set autoindent
-set smartindent
+set expandtab smarttab shiftwidth=4 softtabstop=4 tabstop=4
+set autoindent smartindent
 set hls
-set fileencodings=uft-8,gbk
+set fileencodings=uft-8
 "set ruler
 "set number
 
@@ -52,3 +51,6 @@ Bundle 'pig.vim'
 ""
 " Required
 filetype plugin indent on
+
+" Disable code folding for erlang (Erlang-plugin-package)
+"set nofoldenable
